@@ -1,2 +1,31 @@
 @import url(./login.css);
 @import url(./aside.css);
+
+* {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page {
+    display: flex;
+}
+
+p {
+    color: #696969;
+}
+
+main {
+    padding: 47px;
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+}
+
+aside {
+    width: 300vw;
+    height: 100vh;
+    background-image: url(../styles/assets/202407311250418777.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
