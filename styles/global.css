@@ -26,6 +26,8 @@ aside {
     width: 300vw;
     height: 100vh;
     background-image: url(../styles/assets/202407311250418777.png);
+    z-index: -1;
+    background-position: center;
     background-size: cover ;
     background-repeat: no-repeat;
 }
